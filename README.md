@@ -1,12 +1,13 @@
 # Simple REST Server
 Simple Python REST Server with POST and GET support
+_Renamed script to "app.py" for OpenShift deployment_
 
 ## REQUIREMENTS
 - Flask
 - JSON
 
 ## RUNNING
-> python simple_rest_server.py
+> python app.py
 ```
 Starting REST service at: 127.0.0.1:3000 ...
  * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)\

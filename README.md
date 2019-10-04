@@ -1,4 +1,4 @@
-# Simnple REST Server
+# Simple REST Server
 Simple Python REST Server with POST and GET support
 
 ## REQUIREMENTS

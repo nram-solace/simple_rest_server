@@ -1,0 +1,13 @@
+{
+   "records":[
+      {
+         "resource":"local-docker-001",
+         "node":"local-docker-node",
+         "severity":"1",
+         "source":"localhost",
+         "type":"CentOS",
+         "description":"Testing"
+      }
+   ]
+}
+

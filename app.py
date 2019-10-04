@@ -17,6 +17,7 @@
 #       curl -v http://localhost:3000/list/all
 # nram, solace psg
 # Jun 25, 2019
+# changed default port to 8080 for OpenShift
 
 from flask import Flask
 from flask_restful import Api, Resource, reqparse
@@ -96,7 +97,7 @@ p = argparse.ArgumentParser(prog=me,
 
 po = p.add_argument_group("Optional")
 po.add_argument('--ip', action="store", default="127.0.0.1", help='IP to start service')
-po.add_argument('--port', action="store", default="3000", help='port to start service')
+po.add_argument('--port', action="store", default="8080", help='port to start service')
 po.add_argument('-v', '--verbose', action="count", help='Verbose mode')
 
 r = p.parse_args()

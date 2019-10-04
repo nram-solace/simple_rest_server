@@ -96,7 +96,7 @@ p = argparse.ArgumentParser(prog=me,
                             formatter_class=argparse.RawDescriptionHelpFormatter)
 
 po = p.add_argument_group("Optional")
-po.add_argument('--ip', action="store", default="127.0.0.1", help='IP to start service')
+po.add_argument('--ip', action="store", default="0.0.0.0", help='IP to start service')
 po.add_argument('--port', action="store", default="8080", help='port to start service')
 po.add_argument('-v', '--verbose', action="count", help='Verbose mode')
 
